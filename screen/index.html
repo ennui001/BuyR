@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/asssets/logoo.svg" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./values.css">
+    <!-- i/ implies current directory -->
+    <title>BuyR | A platform for buying and selling textbooks</title>
+  </head>
+
+  <body>
+    <div class="buyr__home-container" id="home">
+      <div class="buyr__navbar-container">
+        <nav class="buyr__navbar-container-links">
+          <ul>
+            <li><a href="#home">Home Page</a></li>
+            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#shop">Shopping</a></li>
+            <li><a href="#about">About Us</a></li>
+          </ul>
+
+          <!-- added dev in package jason so i dont have to start server again and again and simply run it each time i save the file -->
+        </nav>
+        
+        <div class="buyr__navbar-container_logo">
+          <img src="/asssets/logoo.svg" alt="oops failed to load!" />
+        </div>
+      </div>
+      
+      <div class="buyr__hero-container">
+        <h1>Buy and sell your textbooks for the best price.</h1>
+
+        <div class="buyr__searchbox-container">
+          <input class="buyr__searchbox-search" type="text" placeholder="Search..."/>
+          <button type="button" onclick="">
+            <img class="buyr__searchbox-search_icon" src="/asssets/searchicon.svg" alt="nothing found">
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- contactpage -->
+    <h1>Chatbox</h1>
+    <div class="buyr__contact-container" id="contact">
+      <h1>Your contact list</h1>
+      <div class="buyr__contact-container_people">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+
+      <div class="buyr__contact-container_chats">
+        
+      </div>
+    </div>
+
+    <!-- shoppage -->
+    <div class="buyr__shop-container" id="shop">
+      <h1>This is Shopping page</h1>
+    </div>
+
+    <!-- aboutpage -->
+    <h1 style="text-align: center;">About Us</h1>
+    <div class="buyr__about-container" id="about">
+      <div class="buyr__about-container_introduction">
+        <h1>BuyR</h1>
+        <p>It is a platform for selling and buying textbooks, readings and related products. It is a platform where one can sell their old textbooks and also look for some second hand readings.</p>
+      </div>
+      <div class="buyr__about-container_features">
+          <h2>Some of the Features we offer :</h2>
+          <ul>
+            <li>You can directly contact the sellers for any queries and also negotiate for the price of the book.</li>
+            <li>You can be a seller and a buyer</li>
+            <li>You can choose to pay online or offline</li>
+          </ul>
+      </div>
+    </div>
+
+    <!-- footer  -->
+    <footer class="buyr__copyright-container">
+      <div class="buyr__copyright-text">
+        <p>2023 BuyR . All Rights Reserved !</p>
+      </div>
+    </footer>
+  </body>
+</html>

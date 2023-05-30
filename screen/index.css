@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    /* important to fit content  */
+    margin: 0;
+    scroll-behavior: smooth;  
+}
+.buyr__home-container{
+    background-image: url(/asssets/bgbuyr.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.buyr__navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  
+.buyr__navbar-container-links{
+    margin-top: 4rem;
+    padding: 10px;
+    flex: 0.75;
+    height: fit-content;
+    background: rgb(235, 240, 245);
+
+}
+
+.buyr__navbar-container-links ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:space-around;
+}
+
+.buyr__navbar-container-links a{
+    color: unset;
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.buyr__navbar-container_logo{
+    margin-top: 2rem;
+}
+
+.buyr__hero-container{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.buyr__hero-container h1{
+    flex: 1;
+    font-size: 4.3rem;
+    padding: 2.2rem;
+    letter-spacing: 0.4em;
+    color: white;
+    text-align:start;
+    font-family: var(--font-family);
+}
+
+.buyr__searchbox-container{
+    display: flex;
+    flex-direction: row;
+    height:2rem;
+}
+
+.buyr__searchbox-container button{
+    cursor: pointer;
+    border-radius: 0;
+    height: 2rem;
+    border: none;
+    border-left: 0.1px solid black;
+    background-color: white;
+}
+
+.buyr__searchbox-search{
+    border: none;
+    padding: 7px;
+}
+
+.buyr__searchbox-search_icon{
+    height: 2.2rem;
+}
+
+.buyr__about-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content:space-around;
+    background-color: rgb(95, 109, 179);
+}
+
+.buyr__about-container_introduction{
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+}
+
+.buyr__about-container_introduction h1{
+   font-size: 3rem;
+   font-family: var(--font-family);
+   font-weight: bold;
+}
+
+.buyr__about-container_introduction p{
+   font-size: 1rem;
+}
+
+.buyr__about-container_features{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.buyr__about-container_features h2{
+   font-size: 2rem;
+   padding: 10px;
+}
+
+.buyr__about-container_features li{
+    font-size: 1rem;
+    list-style: none;
+    padding: 5px
+}
+
+.buyr__copyright-container{
+    background-color: rgb(22, 22, 22);
+}
+
+.buyr__copyright-text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
